@@ -1,0 +1,5 @@
+Ikonka zapisana jest w trzech formatach png. bmp. ico.
+W trzech ró¿nych rozdzielczosciach odpowiednio; 
+- 64x64 px
+- 32x32 px
+- 16x16 px

@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+  <Product Name='LedConfig' Id='E24E2357-7898-485B-AE38-94E37B9D05C5' UpgradeCode='87F6481A-E321-4D5D-9E57-07287BE10817'
+  Language='1033' Codepage='1252' Version='1.0.0' Manufacturer='Atlantech'>	
+    <Package Id='*' Keywords='Installer' Description="Atlantech LedConfig Instaler" Comments='Atlantech LedConfig is copyrighted' Manufacturer='Atlantech'
+    InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252'/>
+		
+    <Media Id='1' Cabinet='LedConfig.cab' EmbedCab='yes'
+    DiskPrompt="CD-ROM #1" />
+    <Property Id='DiskPrompt' Value="Atlantech LedConfig Installation [1]" />
+	
+    <Binary Id="NET20EXE" SourceFile="dotnetfx.exe" />
+
+	
+	<Property Id="ISXPDRIVER">
+    <RegistrySearch Id="XPDriver"
+                    Root="HKLM"
+					Name="DisplayName"
+                    Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ECC3713C-08A4-40E3-95F1-7D0704F1CE5E}"
+                    Type="raw" />
+	</Property>
+	<Property Id="ISXPDRIVER64">
+    <RegistrySearch Id="XPDriver64"
+                    Root="HKLM"
+					Name="DisplayName"
+                    Key="SOFTWARE\WOW6432node\Microsoft\Windows\CurrentVersion\Uninstall\{ECC3713C-08A4-40E3-95F1-7D0704F1CE5E}"
+                    Type="raw" />
+	</Property>
+	<Property Id="ISVISTADRIVER">
+    <RegistrySearch Id="Vistadriver"
+                    Root="HKLM"
+					Name="DisplayName"
+                    Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{EEC010D0-1252-4E1D-BAD9-F1B8F414535C}"
+                    Type="raw" />
+	</Property>
+	<Property Id="ISVISTADRIVER64">
+    <RegistrySearch Id="Vistadriver64"
+                    Root="HKLM"
+					Name="DisplayName"
+                    Key="SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{EEC010D0-1252-4E1D-BAD9-F1B8F414535C}"
+                    Type="raw" />
+	</Property>
+	<Property Id="ISWIN7DRIVER">
+    <RegistrySearch Id="Win7driver"
+					Name="DisplayName"
+                    Root="HKLM"
+                    Key="SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{ECC3713C-08A4-40E3-95F1-7D0704F1CE5E}"
+                    Type="raw"
+					Win64 = "no"/>
+	</Property>	
+	<Property Id="ISWIN7DRIVER64">
+    <RegistrySearch Id="Win7driver64"
+					Name="DisplayName"
+                    Root="HKLM"
+                    Key="SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\{ECC3713C-08A4-40E3-95F1-7D0704F1CE5E}"
+                    Type="raw"
+					Win64 = "yes"/>
+	</Property>	
+	
+
+    <Condition Message='This application only runs on Windows XP/Vista/7.'>
+		VersionNT >= 501
+    </Condition>
+	
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+      <Directory Id='ProgramFilesFolder' Name='PFiles'>
+        <Directory Id='Atlantech' Name='Atlantech'>
+          <Directory Id='INSTALLDIR' Name='LedConfig'>
+				
+            <Component Id='MainExecutable' Guid='F889F7EC-8F0E-4CA8-AB98-88129E26F06F'>
+              <File Id='LedConfigEXE' Name='LedConfig.exe' DiskId='1' Source='LedConfig.exe' KeyPath='yes'>
+                <Shortcut Id="startmenuLedConfig" Directory="ProgramMenuDir" Name="LedConfig" WorkingDirectory='INSTALLDIR' Icon="LedConfig.exe" IconIndex="0" Advertise="yes" />
+                <Shortcut Id="desktopLedConfig" Directory="DesktopFolder" Name="LedConfig"
+                WorkingDirectory='INSTALLDIR' Icon="LedConfig.exe" IconIndex="0" Advertise="yes" />
+              </File>
+            </Component>
+				
+            <Component Id='LedLibraries' Guid='388C5021-39F2-4E27-9506-33FE08186044'>
+              <File Id='CP5200DLL' Name='CP5200.dll' DiskId='1' Source='CP5200.dll' KeyPath='yes' />
+              <File Id='LafDll' Name='LafDll.dll' DiskId='1' Source='LafDll.dll' />
+            </Component>
+			
+			<Directory Id='DriversDIR' Name='Drivers'>
+              <Component Id='Drivers' Guid='59018972-82AE-11E0-8D10-837F4824019B'>
+                <File Id='XPdriverEXE' Name='PL-2303_Installer_XP.exe' DiskId='1' Source='PL-2303_Installer_XP.exe' KeyPath='yes'/>
+                <File Id='VistadriverEXE' Name='PL-2303_Installer_Vista.exe' DiskId='1' Source='PL-2303_Installer_Vista.exe'/>
+                <File Id='Win7driverEXE' Name='PL-2303_Installer_Win7.exe' DiskId='1' Source='PL-2303_Installer_Win7.exe'/>
+              </Component>
+            </Directory>
+			
+          </Directory>
+        </Directory>
+      </Directory>
+	
+	  <Directory Id="CommonAppDataFolder" Name="Lapp">
+	    <Directory Id='AppDir' Name='LedConfig'>
+	      <Component Id='XMLfiles' Guid='CCDAF683-9822-4A9E-9056-96EA7D48AB28'>
+			  <File Id='LedConfigXML' Name='LedConfig.xml' DiskId='1' Source='LedConfig.xml' />
+              <File Id='alleffectsXML' Name='alleffects.xml' DiskId='1' Source='alleffects.xml' />
+		  </Component>
+	  
+	      <Directory Id='LanguageDIR' Name='Languages'>
+            <Component Id='LanguagePacks' Guid='81BB1551-266C-4942-A49E-35993549D4DA'>
+                <File Id='American_englishXML' Name='American_english.xml' DiskId='1' Source='American_english.xml' KeyPath='yes'/>
+            </Component>
+          </Directory>
+	    </Directory>	  
+	  </Directory>
+	
+      <Directory Id="ProgramMenuFolder" Name="Programs">
+        <Directory Id="ProgramMenuDir" Name="LedConfig">
+          <Component Id="ProgramMenuDir" Guid="12147158-B0F0-4AB8-A4F0-99632F4FB6FA">
+            <RemoveFolder Id='ProgramMenuDir' On='uninstall' />
+            <RegistryValue Root='HKCU' Key='Software\[Manufacturer]\[ProductName]' Type='string' Value='' KeyPath='yes' />
+          </Component>
+        </Directory>
+      </Directory>
+	
+      <Directory Id="DesktopFolder" Name="Desktop" />
+    </Directory>
+	
+	
+
+    <Feature Id='Complete' Title='LedConfig 1.0' Description='The complete package.' Display='expand' Level='1'>
+      <ComponentRef Id='MainExecutable' />
+      <ComponentRef Id='LedLibraries' />
+      <ComponentRef Id='LanguagePacks' />
+      <ComponentRef Id='Drivers' />
+      <ComponentRef Id='ProgramMenuDir' />
+	  <ComponentRef Id='XMLfiles' />
+    </Feature>
+	
+    <UI Id="WixUI_Minimal">
+      <TextStyle Id="WixUI_Font_Normal" FaceName="Tahoma" Size="8" />
+      <TextStyle Id="WixUI_Font_Bigger" FaceName="Tahoma" Size="12" />
+      <TextStyle Id="WixUI_Font_Title" FaceName="Tahoma" Size="9" Bold="yes" />
+
+      <Property Id="DefaultUIFont" Value="WixUI_Font_Normal" />
+      <Property Id="WixUI_Mode" Value="Minimal" />
+
+      <DialogRef Id="ErrorDlg" />
+      <DialogRef Id="FatalError" />
+      <DialogRef Id="FilesInUse" />
+      <DialogRef Id="MsiRMFilesInUse" />
+      <DialogRef Id="PrepareDlg" />
+      <DialogRef Id="ProgressDlg" />
+      <DialogRef Id="ResumeDlg" />
+      <DialogRef Id="UserExit" />
+
+      <!-- This is the welcome dialog you specified-->
+      <DialogRef Id="WelcomeDlg" /> 
+
+      <!-- Hook the new welcome dialog to the next one in the stack-->
+      <Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="PrepareDlg">1</Publish> 
+
+      <Publish Dialog="ExitDialog" Control="Finish" Event="EndDialog" Value="Return" Order="999">1</Publish>
+
+      <Publish Dialog="VerifyReadyDlg" Control="Back" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+
+      <Publish Dialog="MaintenanceWelcomeDlg" Control="Next" Event="NewDialog" Value="MaintenanceTypeDlg">1</Publish>
+
+      <Publish Dialog="MaintenanceTypeDlg" Control="RepairButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="RemoveButton" Event="NewDialog" Value="VerifyReadyDlg">1</Publish>
+      <Publish Dialog="MaintenanceTypeDlg" Control="Back" Event="NewDialog" Value="MaintenanceWelcomeDlg">1</Publish>
+
+      <Property Id="ARPNOMODIFY" Value="1" />
+    </UI>
+
+    <UIRef Id="WixUI_Common" />
+	
+    <Icon Id="LedConfig.exe" SourceFile="LedConfig.exe" />
+    <Property Id="ARPPRODUCTICON" Value="LedConfig.exe" />
+	
+	
+	<CustomAction Id='InstallXPdriver' Directory='DriversDIR' ExeCommand='[DriversDIR]PL-2303_Installer_XP.exe' Execute="deferred" Impersonate="no" Return='asyncWait' />
+	<CustomAction Id='InstallVistadriver' Directory='DriversDIR' ExeCommand='[DriversDIR]PL-2303_Installer_Vista.exe' Execute="deferred" Impersonate="no" Return='asyncWait' />
+	<CustomAction Id='InstallWin7driver' Directory="DriversDIR" ExeCommand='[DriversDIR]PL-2303_Installer_Win7.exe' Execute="deferred" Impersonate="no" Return='asyncWait' />
+
+	
+	
+    <PropertyRef Id="NETFRAMEWORK20"/>
+    <CustomAction Id='InstallNET20' BinaryKey='NET20EXE' ExeCommand='' Return='asyncNoWait'  />
+	
+	
+    <InstallExecuteSequence>
+	  <Custom Action='InstallXPdriver' Before='InstallFinalize'>
+		(<![CDATA[NOT REMOVE]]> AND VersionNT = 501  AND (NOT ISXPDRIVER64 AND NOT ISXPDRIVER))
+	  </Custom>
+	  <Custom Action='InstallVistadriver' Before='InstallFinalize'>
+		(<![CDATA[NOT REMOVE]]> AND VersionNT = 600  AND (NOT ISVISTADRIVER64 AND NOT ISVISTADRIVER))
+	  </Custom>
+	  <Custom Action='InstallWin7driver' Before='InstallFinalize'>
+		(<![CDATA[NOT REMOVE]]> AND VersionNT = 601 AND (NOT ISWIN7DRIVER64 AND NOT ISWIN7DRIVER) )
+	  </Custom>
+    </InstallExecuteSequence>
+	
+  </Product>
+</Wix>

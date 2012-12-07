@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LedConfiguration>
+  <Screen>
+    <Width>96</Width>
+    <Height>16</Height>
+    <Color>1</Color>
+  </Screen>
+  <Communication>
+    <Default>
+      <Comport>COM1</Comport>
+      <Baudrate>115200</Baudrate>
+      <IP>192.168.1.222</IP>
+      <IPPort>5200</IPPort>
+    </Default>
+    <Current>
+      <Comport>COM1</Comport>
+      <Baudrate>115200</Baudrate>
+      <IP>192.168.1.222</IP>
+      <IPPort>5200</IPPort>
+    </Current>
+  </Communication>
+  <Program>
+    <Defaults>
+      <AutoSendTime>false</AutoSendTime> 
+      <BitmapText>
+        <FontName>Arial</FontName>
+        <FontSize>12</FontSize>
+        <FontColor>Red</FontColor>
+        <BackColor>Black</BackColor>
+        <Effect>0</Effect>
+        <Speed>0</Speed>
+        <Stay>3</Stay>
+      </BitmapText>
+      <Bitmap>
+        <Effect>0</Effect>
+        <Mode>0</Mode>
+        <Stay>3</Stay>
+        <Speed>0</Speed>
+      </Bitmap>
+      <Animation>
+        <Mode>0</Mode>
+        <Stay>3</Stay>
+      </Animation>
+      <Clock>
+        <FontSize>16</FontSize>
+        <FontColor>Red</FontColor>
+        <Hour>true</Hour>
+        <Minutes>true</Minutes>
+        <Seconds>true</Seconds>
+        <Day>false</Day>
+        <Month>false</Month>
+        <Year>false</Year>
+        <ShortDay>false</ShortDay>
+        <DayOfWeek>false</DayOfWeek>
+        <ShortYear>false</ShortYear>
+        <Multiline>false</Multiline>
+        <Hands>false</Hands>
+        <Marks>false</Marks>
+        <Stay>3</Stay>
+      </Clock>
+      <Temperature>
+        <FontSize>16</FontSize>
+        <FontColor>Red</FontColor>
+        <Celcius>0</Celcius>
+        <Stay>3</Stay>
+      </Temperature>
+    </Defaults>
+    <Other>
+      <Language name="American_english"/>
+      <Configurator password="letmechangeit"/>
+      <Tester password="thebestledcompany" />
+      <User level="Advanced" />
+      <Paths>
+        <LoadProgram>Empty</LoadProgram>
+        <SaveProgram>Empty</SaveProgram>
+        <LoadRTF>Empty</LoadRTF>
+        <LoadBMP>Empty</LoadBMP>
+        <LoadGIF>Empty</LoadGIF>
+      </Paths>
+    </Other>
+  </Program>
+</LedConfiguration>

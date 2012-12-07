@@ -1,0 +1,1921 @@
+#region MarkBoldfont
+            #region ' '
+            markBoldfontHashTable.Add(32, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '!'
+            markBoldfontHashTable.Add(33, new bool[,]{ 
+
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '"'
+            markBoldfontHashTable.Add(34, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '#'
+            markBoldfontHashTable.Add(35, new bool[,]{ 
+
+	{ false, false, false, false, false, false, true, true, false, false, true, true },
+	{ false, false, false, false, false, false, true, true, false, false, true, true },
+	{ false, false, false, false, false, true, true, false, false, true, true, false },
+	{ false, false, true, true, true, true, true, true, true, true, true, true },
+	{ false, false, false, false, true, true, false, false, true, true, false, false },
+	{ false, false, false, false, true, true, false, false, true, true, false, false },
+	{ false, false, false, true, true, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ true, true, false, false, true, true, false, false, false, false, false, false },
+	{ true, true, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '$'
+            markBoldfontHashTable.Add(36, new bool[,]{ 
+
+	{ false, false, false, true, false, false, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, true, true, true, false, false, false },
+	{ true, true, false, true, false, false, true, false, true, true, false, false },
+	{ true, true, false, true, false, false, true, false, true, true, false, false },
+	{ true, true, false, true, false, false, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, false, false, true, true, true, false, false, false },
+	{ false, false, false, true, false, false, true, false, true, true, false, false },
+	{ true, true, false, true, false, false, true, false, true, true, false, false },
+	{ true, true, false, true, false, false, true, false, true, true, false, false },
+	{ false, true, true, true, false, false, true, true, true, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, false, false, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '%'
+            markBoldfontHashTable.Add(37, new bool[,]{ 
+
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, false, true, true, false, false, false, false, true, true, false },
+	{ true, true, false, true, true, false, false, false, true, true, true, false },
+	{ true, true, false, true, true, false, false, true, true, true, false, false },
+	{ false, true, true, true, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, true, true, true, false, false },
+	{ false, true, true, true, false, false, true, true, false, true, true, false },
+	{ true, true, true, false, false, false, true, true, false, true, true, false },
+	{ true, true, false, false, false, false, true, true, false, true, true, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '&'
+            markBoldfontHashTable.Add(38, new bool[,]{ 
+
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, false, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, true, true, true, false },
+	{ false, true, true, false, false, true, true, false, true, true, false, false },
+	{ true, true, false, false, false, false, true, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, true, true, false, true, true, false, false },
+	{ false, false, false, true, true, true, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '''
+            markBoldfontHashTable.Add(39, new bool[,]{ 
+
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '('
+            markBoldfontHashTable.Add(40, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region ')'
+            markBoldfontHashTable.Add(41, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '*'
+            markBoldfontHashTable.Add(42, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, true, true, true, true, true, true, true, false, false, false },
+	{ false, false, true, true, true, true, true, true, true, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '+'
+            markBoldfontHashTable.Add(43, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region ','
+            markBoldfontHashTable.Add(44, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '-'
+            markBoldfontHashTable.Add(45, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '.'
+            markBoldfontHashTable.Add(46, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false}});
+            #endregion
+            #region '/'
+            markBoldfontHashTable.Add(47, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '0'
+            markBoldfontHashTable.Add(48, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, true, true, true, false },
+	{ true, true, false, false, false, false, false, true, false, true, true, false },
+	{ true, true, false, false, false, false, true, false, false, true, true, false },
+	{ true, true, false, false, false, true, false, false, false, true, true, false },
+	{ true, true, false, false, true, false, false, false, false, true, true, false },
+	{ true, true, false, true, false, false, false, false, false, true, true, false },
+	{ true, true, true, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '1'
+            markBoldfontHashTable.Add(49, new bool[,]{ 
+
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, true, true, true, true, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '2'
+            markBoldfontHashTable.Add(50, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '3'
+            markBoldfontHashTable.Add(51, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, true, false, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '4'
+            markBoldfontHashTable.Add(52, new bool[,]{ 
+
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, true, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '5'
+            markBoldfontHashTable.Add(53, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, true, true, true, true, true, false, false, false, false },
+	{ true, true, true, false, false, false, false, true, true, true, false, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '6'
+            markBoldfontHashTable.Add(54, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, true, true, true, true, true, false, false, false, false },
+	{ true, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '7'
+            markBoldfontHashTable.Add(55, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ true, false, false, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '8'
+            markBoldfontHashTable.Add(56, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '9'
+            markBoldfontHashTable.Add(57, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, true, true, true, true, true, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region ':'
+            markBoldfontHashTable.Add(58, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false}});
+            #endregion
+            #region ';'
+            markBoldfontHashTable.Add(59, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, false, false, false, false, false, false, false},
+	{ false, true, true, true, false, false, false, false},
+	{ false, true, true, true, true, false, false, false},
+	{ false, false, false, true, true, false, false, false},
+	{ false, false, true, true, false, false, false, false},
+	{ false, true, true, false, false, false, false, false},
+	{ true, true, false, false, false, false, false, false}});
+            #endregion
+            #region '<'
+            markBoldfontHashTable.Add(60, new bool[,]{ 
+
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '='
+            markBoldfontHashTable.Add(61, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '>'
+            markBoldfontHashTable.Add(62, new bool[,]{ 
+
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '?'
+            markBoldfontHashTable.Add(63, new bool[,]{ 
+
+	{ false, false, true, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '@'
+            markBoldfontHashTable.Add(64, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, true, true, true, false, false, true, true, false },
+	{ true, true, false, true, true, false, true, true, false, true, true, false },
+	{ true, true, false, true, true, false, true, true, false, true, true, false },
+	{ true, true, false, true, true, false, true, true, false, true, true, false },
+	{ true, true, false, false, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, true, false, false, false },
+	{ false, false, false, false, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'A'
+            markBoldfontHashTable.Add(65, new bool[,]{ 
+
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, true, true, true, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'B'
+            markBoldfontHashTable.Add(66, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'C'
+            markBoldfontHashTable.Add(67, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, true, true, true, false, false, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'D'
+            markBoldfontHashTable.Add(68, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'E'
+            markBoldfontHashTable.Add(69, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'F'
+            markBoldfontHashTable.Add(70, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'G'
+            markBoldfontHashTable.Add(71, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, true, true, true, true, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'H'
+            markBoldfontHashTable.Add(72, new bool[,]{ 
+
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'I'
+            markBoldfontHashTable.Add(73, new bool[,]{ 
+
+	{ false, true, true, true, true, true, true, true, true, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'J'
+            markBoldfontHashTable.Add(74, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, true, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ true, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'K'
+            markBoldfontHashTable.Add(75, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ false, true, true, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'L'
+            markBoldfontHashTable.Add(76, new bool[,]{ 
+
+	{ true, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'M'
+            markBoldfontHashTable.Add(77, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, false, false, false, true, true, true, false, false },
+	{ false, true, true, true, false, false, false, true, true, true, false, false },
+	{ false, true, true, true, true, false, true, true, true, true, false, false },
+	{ false, true, true, true, true, false, true, true, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, false, true, false, false, true, true, false, false },
+	{ false, true, true, false, false, true, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'N'
+            markBoldfontHashTable.Add(78, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, true, false, false, false, true, true, false, false },
+	{ false, true, true, false, true, true, false, false, true, true, false, false },
+	{ false, true, true, false, true, true, false, false, true, true, false, false },
+	{ false, true, true, false, false, true, true, false, true, true, false, false },
+	{ false, true, true, false, false, false, true, true, true, true, false, false },
+	{ false, true, true, false, false, false, true, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'O'
+            markBoldfontHashTable.Add(79, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'P'
+            markBoldfontHashTable.Add(80, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, true, true, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'Q'
+            markBoldfontHashTable.Add(81, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, true, false },
+	{ false, false, false, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'R'
+            markBoldfontHashTable.Add(82, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, true, true, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'S'
+            markBoldfontHashTable.Add(83, new bool[,]{ 
+
+	{ false, false, false, true, true, true, true, true, true, false, true, false },
+	{ false, true, true, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, false, true, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'T'
+            markBoldfontHashTable.Add(84, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ true, false, false, false, true, true, false, false, false, true, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'U'
+            markBoldfontHashTable.Add(85, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'V'
+            markBoldfontHashTable.Add(86, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, true, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'W'
+            markBoldfontHashTable.Add(87, new bool[,]{ 
+
+	{ true, true, true, false, false, true, false, false, true, true, true, false },
+	{ false, true, true, false, false, true, false, false, true, true, false, false },
+	{ false, true, true, false, false, true, false, false, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'X'
+            markBoldfontHashTable.Add(88, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'Y'
+            markBoldfontHashTable.Add(89, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'Z'
+            markBoldfontHashTable.Add(90, new bool[,]{ 
+
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ true, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, false, false, false, false, false, true, false },
+	{ true, true, false, false, false, false, false, false, false, false, true, false },
+	{ true, true, true, true, true, true, true, true, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '['
+            markBoldfontHashTable.Add(91, new bool[,]{ 
+
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '\'
+            markBoldfontHashTable.Add(92, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region ']'
+            markBoldfontHashTable.Add(93, new bool[,]{ 
+
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '^'
+            markBoldfontHashTable.Add(94, new bool[,]{ 
+
+	{ false, false, false, false, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, false, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '_'
+            markBoldfontHashTable.Add(95, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, true, true }});
+            #endregion
+            #region '`'
+            markBoldfontHashTable.Add(96, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'a'
+            markBoldfontHashTable.Add(97, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, true, true, true, true, false, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, true, true, true, false, false, false },
+	{ false, true, true, true, true, true, true, false, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'b'
+            markBoldfontHashTable.Add(98, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ true, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'c'
+            markBoldfontHashTable.Add(99, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'd'
+            markBoldfontHashTable.Add(100, new bool[,]{ 
+
+	{ false, false, false, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, true, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, true, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, true, true, true, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'e'
+            markBoldfontHashTable.Add(101, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'f'
+            markBoldfontHashTable.Add(102, new bool[,]{ 
+
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, true, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'g'
+            markBoldfontHashTable.Add(103, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, true, true, true, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, true, false, false, false, false },
+	{ false, false, true, true, true, true, true, false, false, false, false, false }});
+            #endregion
+            #region 'h'
+            markBoldfontHashTable.Add(104, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'i'
+            markBoldfontHashTable.Add(105, new bool[,]{ 
+
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'j'
+            markBoldfontHashTable.Add(106, new bool[,]{ 
+
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ true, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, true, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, true, true, true, true, false, false, false, false, false, false }});
+            #endregion
+            #region 'k'
+            markBoldfontHashTable.Add(107, new bool[,]{ 
+
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, true, true, true, false, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ false, true, true, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, false, false, false, false },
+	{ false, true, true, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, false, false, true, true, false, false, false, false, false },
+	{ true, true, true, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'l'
+            markBoldfontHashTable.Add(108, new bool[,]{ 
+
+	{ false, false, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'm'
+            markBoldfontHashTable.Add(109, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, false, true, true, true, false, true, true, true, false, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ false, true, true, false, false, true, true, false, false, true, true, false },
+	{ true, true, true, false, false, true, true, false, false, true, true, true },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'n'
+            markBoldfontHashTable.Add(110, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'o'
+            markBoldfontHashTable.Add(111, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ true, true, false, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'p'
+            markBoldfontHashTable.Add(112, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'q'
+            markBoldfontHashTable.Add(113, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, true, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ true, true, false, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, true, true, true, false, false, false },
+	{ false, false, false, true, true, true, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, true, true, true, true, false, false }});
+            #endregion
+            #region 'r'
+            markBoldfontHashTable.Add(114, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, true, true, true, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, true, true, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 's'
+            markBoldfontHashTable.Add(115, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, true, true, true, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, true, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, true, true, false, false, false },
+	{ true, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, true, true, true, true, true, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 't'
+            markBoldfontHashTable.Add(116, new bool[,]{ 
+
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, true, true, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, true, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'u'
+            markBoldfontHashTable.Add(117, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, true, true, false, false, false, false, false, true, true, false, false },
+	{ false, false, true, true, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, true, true, true, false, true, true, true, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'v'
+            markBoldfontHashTable.Add(118, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'w'
+            markBoldfontHashTable.Add(119, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, true, false, false, true, true, true, false },
+	{ false, true, true, false, false, true, false, false, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, true, true, false, true, true, true, false, true, true, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, true, true, true, false, true, true, true, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, false, true, false, false, false, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'x'
+            markBoldfontHashTable.Add(120, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, true, true, false, false, false, false, false },
+	{ false, false, true, true, false, false, true, true, false, false, false, false },
+	{ false, true, true, false, false, false, false, true, true, false, false, false },
+	{ true, true, true, false, false, false, false, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'y'
+            markBoldfontHashTable.Add(121, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, false, false, false, true, true, true, true, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, true, true, false, false, false, true, true, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, true, true, false, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region 'z'
+            markBoldfontHashTable.Add(122, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ true, false, false, false, false, false, false, true, true, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, true, true, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, false, false, false, false, false, false, true, false, false },
+	{ true, true, true, true, true, true, true, true, true, true, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '{'
+            markBoldfontHashTable.Add(123, new bool[,]{ 
+
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, true, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '|'
+            markBoldfontHashTable.Add(124, new bool[,]{ 
+
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '}'
+            markBoldfontHashTable.Add(125, new bool[,]{ 
+
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, false, false, true, true, true, false, false, false, false },
+	{ false, false, false, false, true, true, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, false, true, true, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ true, true, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '~'
+            markBoldfontHashTable.Add(126, new bool[,]{ 
+
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, true, true, false, false, false, false, false, false, false, false },
+	{ false, true, true, true, true, false, false, false, true, true, false, false },
+	{ true, true, false, false, true, true, false, false, true, true, false, false },
+	{ true, true, false, false, false, true, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, true, true, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false, false, false, false, false }});
+            #endregion
+            #region '°'
+            markBoldfontHashTable.Add(176, new bool[,]{ 
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, true, true, true, false, false, false },
+	{ false, true, true, false, true, true, false, false },
+	{ true, true, false, false, false, true, true, false },
+	{ true, true, false, false, false, true, true, false },
+	{ true, true, false, false, false, true, true, false },
+	{ false, true, true, false, true, true, false, false },
+	{ false, false, true, true, true, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false },
+	{ false, false, false, false, false, false, false, false }});
+            #endregion
+            #endregion

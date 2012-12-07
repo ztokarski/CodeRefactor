@@ -1,0 +1,500 @@
+#region Mark 6x8 font
+            #region ' '
+            mark8fontHashTable.Add(32, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region ,
+            mark8fontHashTable.Add(44, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, false, false, false, false }});
+            #endregion
+            #region °
+            mark8fontHashTable.Add(176, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region .
+            mark8fontHashTable.Add(46, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, false, false, false },
+	{ false, true, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region :
+            mark8fontHashTable.Add(58, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region /
+            mark8fontHashTable.Add(47, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, true },
+	{ false, false, false, false, true, false },
+	{ false, false, false, true, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, false, false, false, false },
+	{ true, false, false, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region -
+            mark8fontHashTable.Add(45, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, true, true, true, true, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 0
+            mark8fontHashTable.Add(48, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 1
+            mark8fontHashTable.Add(49, new bool[,] {
+	{ false, false, true, false, false, false },
+	{ false, true, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 2
+            mark8fontHashTable.Add(50, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, true, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, false, false, false, false },
+	{ true, false, false, false, true, false },
+	{ true, true, true, true, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 3
+            mark8fontHashTable.Add(51, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 4
+            mark8fontHashTable.Add(52, new bool[,] {
+	{ false, false, false, true, false, false },
+	{ false, false, true, true, false, false },
+	{ false, true, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ true, true, true, true, true, false },
+	{ false, false, false, true, false, false },
+	{ false, false, true, true, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 5
+            mark8fontHashTable.Add(53, new bool[,] {
+	{ true, true, true, true, true, false },
+	{ true, false, false, false, false, false },
+	{ true, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 6
+            mark8fontHashTable.Add(54, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, false, false },
+	{ true, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 7
+            mark8fontHashTable.Add(55, new bool[,] {
+	{ true, true, true, true, true, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, true, false },
+	{ false, false, false, true, false, false },
+	{ false, false, false, true, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 8
+            mark8fontHashTable.Add(56, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region 9
+            mark8fontHashTable.Add(57, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, true, false },
+	{ false, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region A
+            mark8fontHashTable.Add(65, new bool[,] {
+	{ false, false, true, false, false, false },
+	{ false, true, false, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, true, true, true, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region C
+            mark8fontHashTable.Add(67, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, false, false },
+	{ true, false, false, false, false, false },
+	{ true, false, false, false, false, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region D
+            mark8fontHashTable.Add(68, new bool[,] {
+	{ true, true, true, true, false, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ true, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region F
+            mark8fontHashTable.Add(70, new bool[,] {
+	{ true, true, true, true, true, false },
+	{ false, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ true, true, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region J
+            mark8fontHashTable.Add(74, new bool[,] {
+	{ false, false, true, true, true, false },
+	{ false, false, false, true, false, false },
+	{ false, false, false, true, false, false },
+	{ false, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ false, true, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region M
+            mark8fontHashTable.Add(77, new bool[,] {
+	{ true, false, false, false, true, false },
+	{ true, true, false, true, true, false },
+	{ true, false, true, false, true, false },
+	{ true, false, true, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region N
+            mark8fontHashTable.Add(78, new bool[,] {
+	{ true, false, false, false, true, false },
+	{ true, true, false, false, true, false },
+	{ true, false, true, false, true, false },
+	{ true, false, true, false, true, false },
+	{ true, false, false, true, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region O
+            mark8fontHashTable.Add(79, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region S
+            mark8fontHashTable.Add(83, new bool[,] {
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region T
+            mark8fontHashTable.Add(84, new bool[,] {
+	{ true, true, true, true, true, false },
+	{ true, false, true, false, true, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region W
+            mark8fontHashTable.Add(87, new bool[,] {
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, true, false, true, false },
+	{ true, false, true, false, true, false },
+	{ true, true, false, true, true, false },
+	{ true, false, false, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region a
+            mark8fontHashTable.Add(97, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, false, false, false },
+	{ false, false, false, true, false, false },
+	{ false, true, true, true, false, false },
+	{ true, false, false, true, false, false },
+	{ false, true, true, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region b
+            mark8fontHashTable.Add(98, new bool[,] {
+	{ true, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ true, false, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region c
+            mark8fontHashTable.Add(99, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, false, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region d
+            mark8fontHashTable.Add(100, new bool[,] {
+	{ false, false, true, true, false, false },
+	{ false, false, false, true, false, false },
+	{ false, true, true, true, false, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ false, true, true, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region e
+            mark8fontHashTable.Add(101, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, false, false, false },
+	{ true, false, false, true, false, false },
+	{ true, true, true, true, false, false },
+	{ true, false, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region g
+            mark8fontHashTable.Add(103, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, true, true, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, true, false, false },
+	{ false, true, true, false, false, false }});
+            #endregion
+            #region h
+            mark8fontHashTable.Add(104, new bool[,] {
+	{ true, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region i
+            mark8fontHashTable.Add(105, new bool[,] {
+	{ false, false, true, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region l
+            mark8fontHashTable.Add(108, new bool[,] {
+	{ false, true, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region n
+            mark8fontHashTable.Add(110, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, false, true, true, false, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region o
+            mark8fontHashTable.Add(111, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ false, true, true, true, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region p
+            mark8fontHashTable.Add(112, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, true, true, true, false, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, true, false },
+	{ false, true, true, true, false, false },
+	{ false, true, false, false, false, false },
+	{ true, true, true, false, false, false }});
+            #endregion
+            #region r
+            mark8fontHashTable.Add(114, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, false, true, true, false, false },
+	{ false, true, false, false, true, false },
+	{ false, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ true, true, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region t
+            mark8fontHashTable.Add(116, new bool[,] {
+	{ false, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ true, true, true, false, false, false },
+	{ false, true, false, false, false, false },
+	{ false, true, false, false, false, false },
+	{ false, true, false, false, true, false },
+	{ false, false, true, true, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region u
+            mark8fontHashTable.Add(117, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ true, false, false, true, false, false },
+	{ false, true, true, false, true, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region v
+            mark8fontHashTable.Add(118, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, false, true, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, false, false, false, false }});
+            #endregion
+            #region y
+            mark8fontHashTable.Add(121, new bool[,] {
+	{ false, false, false, false, false, false },
+	{ false, false, false, false, false, false },
+	{ true, false, false, false, true, false },
+	{ true, false, false, false, true, false },
+	{ false, true, false, true, false, false },
+	{ false, false, true, false, false, false },
+	{ false, false, true, false, false, false },
+	{ true, true, false, false, false, false }});
+            #endregion
+
+
+
+            #endregion

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language name="American_english">
+  <LocaleResource name="oldAnimationCheckBox.Text" value="old animation" />
+  <LocaleResource name="send2DCheckBox.Text" value="wyślij 2D" />
+  <LocaleResource name="showScreenBrightnessButton.Text" value="Screen brightness" />
+  <LocaleResource name="showProgramSettingsButton.Text" value="Program settings" />
+  <LocaleResource name="screenFoundInfoLabel.Text" value="NOT FOUND" />
+  <LocaleResource name="playbillToolsGroupBox.Text" value="Playbill tools" />
+  <LocaleResource name="showSettingsButton.Text" value="Show settings" />
+  <LocaleResource name="showPreviewButton.Text" value="Show preview" />
+  <LocaleResource name="expertLevelCheckBox.Text" value="Expert level" />
+  <LocaleResource name="advancedLevelCheckBox.Text" value="Advanced level" />
+  <LocaleResource name="beginnerLevelCheckBox.Text" value="Beginner level" />
+  <LocaleResource name="playbillSendButton.Text" value="Send to screen" />
+  <LocaleResource name="playbillTab.Text" value="Playbill settings      " />
+  <LocaleResource name="useDeaultsForPlaybillCheckBox.Text" value="Use defaults" />
+  <LocaleResource name="playbillColorLabel.Text" value="Screen color:" />
+  <LocaleResource name="playbillHeightLabel.Text" value="Height:" />
+  <LocaleResource name="playbillWidthLabel.Text" value="Width:" />
+  <LocaleResource name="programTab.Text" value="Program settings      " />
+  <LocaleResource name="programRepeatTimesLabel.Text" value="Repeat" />
+  <LocaleResource name="DateTimeProgramGroupBox.Text" value="Date and time" />
+  <LocaleResource name="dayOfWeekProgramLabel.Text" value="Tuesday" />
+  <LocaleResource name="currentProgramTimeCheckBox.Text" value="Current computer time" />
+  <LocaleResource name="SendProgramTimeButton.Text" value="Send Time" />
+  <LocaleResource name="runningGroupBox.Text" value="Running plan:" />
+  <LocaleResource name="runningEndLabel.Text" value="End:" />
+  <LocaleResource name="runningBeginLabel.Text" value="Begin" />
+  <LocaleResource name="programNameLabel.Text" value="Name:" />
+  <LocaleResource name="programHeightLabel.Text" value="Height:" />
+  <LocaleResource name="programWidthLabel.Text" value="Width:" />
+  <LocaleResource name="runningCheckBox.Text" value="Play this in period" />
+  <LocaleResource name="windowTab.Text" value="Window settings      " />
+  <LocaleResource name="windowWaitingModeLabel.Text" value="Waiting mode" />
+  <LocaleResource name="windowSizeLabel.Text" value="Please keep in mind, that values of X and Width should be divisible by 8" />
+  <LocaleResource name="windowDivideVerticalButton.Text" value="Divide window vertical" />
+  <LocaleResource name="windowDivideHorizontalButton.Text" value="Divide window horizontal" />
+  <LocaleResource name="windowNameLabel.Text" value="Name:" />
+  <LocaleResource name="windowYLabel.Text" value="Y" />
+  <LocaleResource name="windowHeightLabel.Text" value="Height:" />
+  <LocaleResource name="windowWidthlabel.Text" value="Width:" />
+  <LocaleResource name="windowXLabel.Text" value="X" />
+  <LocaleResource name="itemTab.Text" value="Item settings      " />
+  <LocaleResource name="bitmaptextRepeatLabel.Text" value="Repeat" />
+  <LocaleResource name="bitmapTextTransparentCheckBox.Text" value="Don't clear previous" />
+  <LocaleResource name="button1.Text" value="button1" />
+  <LocaleResource name="currentEffectLabel.Text" value="ScrollRigth" />
+  <LocaleResource name="bitmapTextStayTimeLabel.Text" value="Stay Time (s):" />
+  <LocaleResource name="bitmaptextEffectSpeedLabel.Text" value="Effect Speed:" />
+  <LocaleResource name="bitmaptextFontColorLabel.Text" value="Font Color:" />
+  <LocaleResource name="bitmaptextBackgroundLabel.Text" value="Background:" />
+  <LocaleResource name="bitmaptextFontSizeLabel.Text" value="Font Size:" />
+  <LocaleResource name="bitmaptextFontLabel.Text" value="Font:" />
+  <LocaleResource name="bitmaptextLabel.Text" value="Text" />
+  <LocaleResource name="bitmapRepeatLabel.Text" value="Repeat" />
+  <LocaleResource name="bitmapTransparentCheckBox.Text" value="Don't clear previous" />
+  <LocaleResource name="currentBitmapEffectLabel.Text" value="currentBitmapEffectLabel" />
+  <LocaleResource name="bitmapInfoLabel.Text" value="A bitmap for screen should be monochromatic" />
+  <LocaleResource name="bitmapRenderLabel.Text" value="Render Mode:" />
+  <LocaleResource name="bitmapStayTimeLabel.Text" value="Stay time (s)" />
+  <LocaleResource name="bitmapEffectSpeedLabel.Text" value="Effect speed" />
+  <LocaleResource name="selectBmpButton.Text" value="Select file..." />
+  <LocaleResource name="animatorInfoLabel.Text" value="A gif for screen should be monochromatic" />
+  <LocaleResource name="animatorRenderLabel.Text" value="Render Mode:" />
+  <LocaleResource name="animatorRepeatLabel.Text" value="Repeat:" />
+  <LocaleResource name="animatorSelectbutton.Text" value="Select file..." />
+  <LocaleResource name="clockTransparentCheckBox.Text" value="Don't clear previous" />
+  <LocaleResource name="dateTimeClockGroupBox.Text" value="Date and time" />
+  <LocaleResource name="dayOfWeekItemLabel.Text" value="Tuesday" />
+  <LocaleResource name="currentClockTimeCheckBox.Text" value="Current computer time" />
+  <LocaleResource name="sendClockTimeButton.Text" value="Send Time" />
+  <LocaleResource name="clockStayTimeLabel.Text" value="Stay Time (s):" />
+  <LocaleResource name="clockDisplayGroupBox.Text" value="Display:" />
+  <LocaleResource name="dateTimeFormatLabel.Text" value="Format:" />
+  <LocaleResource name="clockMarksCheckBox.Text" value="Clock Marks" />
+  <LocaleResource name="clockHandsCheckBox.Text" value="Clock Hands" />
+  <LocaleResource name="clockSecondsCheckBox.Text" value="Seconds" />
+  <LocaleResource name="clockMinuteCheckBox.Text" value="Minute" />
+  <LocaleResource name="clockHourCheckBox.Text" value="Hour" />
+  <LocaleResource name="clockDayOfWeekCheckBox.Text" value="Day of the week" />
+  <LocaleResource name="clockDayCheckBox.Text" value="Day" />
+  <LocaleResource name="clockMonthCheckBox.Text" value="Month" />
+  <LocaleResource name="clockYearCheckBox.Text" value="Year" />
+  <LocaleResource name="clockMultiLineCheckBox.Text" value="Use multi-line display" />
+  <LocaleResource name="clock2YcheckBox.Text" value="Use 2 chars for year notation" />
+  <LocaleResource name="Clock24hCheckBox.Text" value="Use 24-h notation" />
+  <LocaleResource name="clockFontColorLabel.Text" value="Font Color:" />
+  <LocaleResource name="clockFontSizeLabel.Text" value="Font Size:" />
+  <LocaleResource name="clockTextLabel.Text" value="Text:" />
+  <LocaleResource name="temperatureTransparentCheckBox.Text" value="Don't clear previous" />
+  <LocaleResource name="temperatureWarningLabel.Text" value="Please be aware, that if you haven't got a thermometer insde the screen  &#xD;&#xA;it'll show 0 Celsius degrees or 31 Fahrenheit degrees." />
+  <LocaleResource name="groupBox1.Text" value="Type of degrees" />
+  <LocaleResource name="temperatureFahrenheitRadioButton.Text" value="Fahrenheit" />
+  <LocaleResource name="temperatureCelsiusRadioButton.Text" value="Celsius" />
+  <LocaleResource name="temperatureStayTimeLabel.Text" value="Stay Time (s):" />
+  <LocaleResource name="temperatureFontColorLabel.Text" value="Font Color:" />
+  <LocaleResource name="temperatureFontSizeLabel.Text" value="Font Size:" />
+  <LocaleResource name="temperatureTextLabel.Text" value="Text:" />
+  <LocaleResource name="manipulateItemCheckBox.Text" value="Manipulate item" />
+  <LocaleResource name="menuTab.Text" value="Connect via network      " />
+  <LocaleResource name="selectCloseButton.Text" value="Close without connecting" />
+  <LocaleResource name="selectSearchButton.Text" value="I don't know IP, let me search the network" />
+  <LocaleResource name="selectConnectButton.Text" value="I know IP address let me connect directly" />
+  <LocaleResource name="offlineGroupBox.Text" value="Choose controller (offline)" />
+  <LocaleResource name="offlineTypeLabel.Text" value="Type" />
+  <LocaleResource name="offlineSeriesLabel.Text" value="Series" />
+  <LocaleResource name="loadSettingsButton.Text" value="Load" />
+  <LocaleResource name="saveSettingsButton.Text" value="Save" />
+  <LocaleResource name="iDAndBaudrateGroupBox.Text" value="ID and RS232" />
+  <LocaleResource name="baudrateLabel.Text" value="RS232 baudrate" />
+  <LocaleResource name="iDLabel.Text" value="ID" />
+  <LocaleResource name="setIDAndBaudrateButton.Text" value="Set id and baudrate" />
+  <LocaleResource name="checkControllerButton.Text" value="Check controller  again" />
+  <LocaleResource name="testWithoutControllerCheckBox.Text" value="Test without controller" />
+  <LocaleResource name="controllerInfoGroupBox.Text" value="Controller info" />
+  <LocaleResource name="controllerVersionTextLabel.Text" value="---" />
+  <LocaleResource name="controllerVersionLabel.Text" value="Version:" />
+  <LocaleResource name="controllerTypeTextLabel.Text" value="---" />
+  <LocaleResource name="statusTextLabel.Text" value="NOT FOUND" />
+  <LocaleResource name="controllerTypeLabel.Text" value="Type:" />
+  <LocaleResource name="statusLabel.Text" value="Status:" />
+  <LocaleResource name="openLanguageConfigurationButton.Text" value="Open language configuration" />
+  <LocaleResource name="ipSettingsGroupBox.Text" value="IP settings" />
+  <LocaleResource name="dotLabel3.Text" value="." />
+  <LocaleResource name="dotLabel2.Text" value="." />
+  <LocaleResource name="dotLabel1.Text" value="." />
+  <LocaleResource name="dotLabel3.Text" value="." />
+  <LocaleResource name="dotLabel2.Text" value="." />
+  <LocaleResource name="dotLabel1.Text" value="." />
+  <LocaleResource name="dotLabel3.Text" value="." />
+  <LocaleResource name="dotLabel2.Text" value="." />
+  <LocaleResource name="dotLabel1.Text" value="." />
+  <LocaleResource name="dotLabel3.Text" value="." />
+  <LocaleResource name="dotLabel2.Text" value="." />
+  <LocaleResource name="dotLabel1.Text" value="." />
+  <LocaleResource name="ipLabel.Text" value="IP" />
+  <LocaleResource name="setNetworkSettingsButton.Text" value="Set" />
+  <LocaleResource name="portLabel.Text" value="Port" />
+  <LocaleResource name="getNetworkSettingsButton.Text" value="Get" />
+  <LocaleResource name="passcodeLabel.Text" value="Passcode" />
+  <LocaleResource name="maskLabel.Text" value="Mask" />
+  <LocaleResource name="gatewayLabel.Text" value="Gateway" />
+  <LocaleResource name="localizationInfoLabel.Text" value="Choose language from drop down, write translations and click Generate to create a language file." />
+  <LocaleResource name="controlsToLocalizeGroupBox.Text" value="List of controls for language file" />
+  <LocaleResource name="generateLanguageFileButton.Text" value="Generate" />
+  <LocaleResource name="rememberPaswdCheckBox.Text" value="Remember my password" />
+  <LocaleResource name="cancelButton.Text" value="Cancel" />
+  <LocaleResource name="okButton.Text" value="OK" />
+  <LocaleResource name="passLabel.Text" value="Please, enter password:" />
+  <LocaleResource name="brightnessSettingsGroupBox.Text" value="Brightness settings" />
+  <LocaleResource name="useSensorInfoLabel.Text" value="Check &quot;auto&quot; option only if you have a light sensor" />
+  <LocaleResource name="brightnessAllGroupBox.Text" value="All" />
+  <LocaleResource name="useLightSensorAllCheckBox.Text" value="auto" />
+  <LocaleResource name="brightness2224GroupBox.Text" value="20-24" />
+  <LocaleResource name="brightness2224SensorCheckBox.Text" value="auto" />
+  <LocaleResource name="brightness1622GroupBox.Text" value="16-20" />
+  <LocaleResource name="brightness1622SensorCheckBox.Text" value="auto" />
+  <LocaleResource name="brightness1216GroupBox.Text" value="12-16" />
+  <LocaleResource name="brightness1216SensorCheckBox.Text" value="auto" />
+  <LocaleResource name="brightness812GroupBox.Text" value="8-12" />
+  <LocaleResource name="brightness812SensorCheckBox.Text" value="auto" />
+  <LocaleResource name="brightness48GroupBox.Text" value="4-8" />
+  <LocaleResource name="brightness48SensorCheckBox.Text" value="auto" />
+  <LocaleResource name="brightness04GroupBox.Text" value="0-4" />
+  <LocaleResource name="brightness04SensorCheckBox.Text" value="auto" />
+  <LocaleResource name="rememberPaswdCheckBox.Text" value="Remember my password" />
+  <LocaleResource name="cancelButton.Text" value="Cancel" />
+  <LocaleResource name="okButton.Text" value="OK" />
+  <LocaleResource name="passLabel.Text" value="Please, enter password:" />
+  <LocaleResource name="logMessage_searchingByIpFoundIpIsDefault" value="The screen was found via network connection. IP is default " />
+  <LocaleResource name="logMessage_searchingByIpFoundIpIs" value="The screen was found via network connection. IP is" />
+  <LocaleResource name="logMessage_searchingByIpDefaultNotFound" value="The screen was not found via network default IP address." />
+  <LocaleResource name="logMessage_searchingBySerialStarted" value="Searching by serial connection has started..." />
+  <LocaleResource name="logMessage_initNetworkSearchWindow" value="Initializing network search window..." />
+  <LocaleResource name="logMessage_searchingByCOM" value="Searching at {0} of {1} ports - {2} with baudrate {3}..." />
+  <LocaleResource name="logMessage_uploadingFile" value="Uploading {0} of {1} files..." />
+  <LocaleResource name="logMessage_savingFiles" value="Saving {0} files..." />
+  <LocaleResource name="logMessage_deletingOldFiles" value="Deleting old files..." />
+  <LocaleResource name="logMessage_searchingByIpUnableToConnect" value="Could not connect to the screen.&#xA;Probably given IP was misstyped." />
+  <LocaleResource name="logMessage_searchingByIpCanceled" value="Searching via network connection was canceled." />
+  <LocaleResource name="logMessage_searchingByIpFound" value="Screen was found via network connection." />
+  <LocaleResource name="logMessage_searchingByIpDefaultStarted" value="Searching on default ip address..." />
+  <LocaleResource name="logMessage_searchingByIpNotFound" value="Screen was not found via network connection." />
+  <LocaleResource name="logMessage_settingTimeSuccess" value="Time was succesfuly set" />
+  <LocaleResource name="logMessage_searchingByIpInSelectedNetwork" value="Searching in selected network..." />
+  <LocaleResource name="logMessage_searchingBySerialEndedFound" value="A screen was found via serial connection." />
+  <LocaleResource name="logMessage_networkSearchWindowInited" value="Network search window was initialized." />
+  <LocaleResource name="logMessage_searchingBySerialEndedNotFound" value="Searching by serial connection has ended. Screen was not found." />
+  <LocaleResource name="logMessage_searchingByIpAttemptingToConnect" value="Attempting to connect by given IP..." />
+  <LocaleResource name="logMessage_selectNetwork" value="Please select network to search from." />
+  <LocaleResource name="logMessage_settingTime" value="Attempting to set time on controller..." />
+  <LocaleResource name="logMessage_resetingControllerApp" value="Reseting controller application..." />
+  <LocaleResource name="messageBoxTitle_connectViaNetwork" value="LedConfig - Search Failure" />
+  <LocaleResource name="messageBoxMessage_only10Windows" value="Only 10 windows in program allowed." />
+  <LocaleResource name="messageBoxMessage_connectViaNetwork" value="Do you want to connect via network?" />
+  <LocaleResource name="messageBoxTitle_changeLevelExpert" value="Warning" />
+  <LocaleResource name="messageBoxMessage_deleteItem" value="Are you sure?" />
+  <LocaleResource name="messageBoxMessage_changeType" value="Change type?" />
+  <LocaleResource name="messageBoxTitle_changeType" value="Changing item's type" />
+  <LocaleResource name="messageBoxTitle_screenWasFound" value="LedConfig - Search Success" />
+  <LocaleResource name="messageBoxTitle_deleteItem" value="Deleting element" />
+  <LocaleResource name="messageBoxMessage_changeLevelExpert" value="Expert has access to screen settings, your screen will not work if you do something wrong there. Proceed?" />
+  <LocaleResource name="messageBoxMessage_screenWasFound" value="The screen was found" />
+  <LocaleResource name="messageBoxMessage_unableToChangeFont" value="Unable to change font" />
+  <LocaleResource name="messageBoxTitle_passwordAccessDenied" value="LedConfig - Authentication Failure" />
+  <LocaleResource name="messageBoxMessage_changeLevelBeginner" value="Beginner has less option, your work will be erased. Proceed?" />
+  <LocaleResource name="messageBoxTitle_changeLevelBeginner" value="Warning" />
+  <LocaleResource name="messageBoxMessage_couldNotOpenFile" value="Could not create specified file." />
+  <LocaleResource name="messageBoxMessage_passwordAccessDenied" value="Access Denied!" />
+  <LocaleResource name="tooltipMessage_upButton" value="Press this button to move up selected program, window or item in playbill hierarchy." />
+  <LocaleResource name="tooltipMessage_bitmaptextLeftButton" value="This button change text align to left." />
+  <LocaleResource name="tooltipMessage_bitmaptextItalicButton" value="Press this button to change font style to italic." />
+  <LocaleResource name="tooltipMessage_progLoadButton" value="Press this button to load one of previously saved programs." />
+  <LocaleResource name="tooltipMessage_runningDateTimeEnd" value="The hour and minute when screen will stop playing selected program." />
+  <LocaleResource name="tooltipMessage_showPreviewButton" value="This button shows a preview window,&#xD;&#xA;which shows how the program would look like on the LED screen." />
+  <LocaleResource name="tooltipMessage_windowWidthTextBox" value="The width of the window in program &#xD;&#xA;It should be divisible by 8." />
+  <LocaleResource name="tooltipMessage_windowYTextBox" value="The y position of left edge of the window in program." />
+  <LocaleResource name="tooltipMessage_windowHeightTextBox" value="The height of the window in program." />
+  <LocaleResource name="tooltipMessage_bitmaptextBoldButton" value="Press this button to change font style to bold." />
+  <LocaleResource name="tooltipMessage_playbillHeightTextBox" value="The height of LED screen, that will display programs" />
+  <LocaleResource name="tooltipMessage_programWidthTextBox" value="The width of currently selected program&#xD;&#xA;must be the same as screen width." />
+  <LocaleResource name="tooltipMessage_windowDivideHorizontalButton" value="This button divides selected window horizontally &#xD;&#xA;into two halves or in other possible proportions." />
+  <LocaleResource name="tooltipMessage_languageComboBox" value="This drop-down list allows to change language used by program &#xD;&#xA;simply click on that down arrow and select best option." />
+  <LocaleResource name="tooltipMessage_animatorRenderComboBox" value="This drop-down list allow to set drawing mode for the screen,&#xD;&#xA;if it should draw at the center, stretch to fit window, zoom, or create mosaic from small images." />
+  <LocaleResource name="tooltipMessage_progSavButton" value="Press this button to save your programs to file, so you will be able to load them in the future." />
+  <LocaleResource name="tooltipMessage_windowXTextBox" value="The x position of left edge of the window in program &#xD;&#xA;It should be divisible by 8." />
+  <LocaleResource name="tooltipMessage_progressBar1" value="Progress bar that informs you if there is anything happenning at the moment." />
+  <LocaleResource name="tooltipMessage_windowNameTextBox" value="The name of currently selected window." />
+  <LocaleResource name="tooltipMessage_bitmaptextCenterButton" value="This button change text align to center." />
+  <LocaleResource name="tooltipMessage_addButton" value="Press this button to add program, window or item to your playbill&#xD;&#xA;New item'll be added depending on selected piece of a tree." />
+  <LocaleResource name="tooltipMessage_bitmaptextUnderlineButton" value="Press this button to change font style to underline." />
+  <LocaleResource name="tooltipMessage_programHeightTextBox" value="The height of currently selected program&#xD;&#xA;must be the same as screen height." />
+  <LocaleResource name="tooltipMessage_runningDateTimeBegin" value="The hour and minute when screen will start displaying selected program." />
+  <LocaleResource name="tooltipMessage_playbillSendButton" value="Send everything to the screen." />
+  <LocaleResource name="tooltipMessage_runningDayscheckedListBox" value="Program'll be played only at checked days of the week." />
+  <LocaleResource name="tooltipMessage_advancedLevelCheckBox" value="Change application user level to the one with most functions - advanced." />
+  <LocaleResource name="tooltipMessage_playbillColorComboBox" value="The available colors used by LED screen, that will display programs&#xD;&#xA;different screens could use different pallets of colours." />
+  <LocaleResource name="tooltipMessage_programNameTextBox" value="The name of currently selected program." />
+  <LocaleResource name="tooltipMessage_runningCheckBox" value="If this item is checked, program will be played only at specified days and hours of the week." />
+  <LocaleResource name="tooltipMessage_bitmapRenderComboBox" value="This drop-down list allow to set drawing mode for the screen,&#xD;&#xA;if it should draw at the center, stretch to fit window, zoom, or create mosaic from small images." />
+  <LocaleResource name="tooltipMessage_bitmaptextRightButton" value="This button change text align to right." />
+  <LocaleResource name="tooltipMessage_windowDivideVerticalButton" value="This button divides selected window vertically &#xD;&#xA;into two halves or in other possible proportions." />
+  <LocaleResource name="tooltipMessage_useDeaultsForPlaybillCheckBox" value="If this item is checked width, height and colors will return to default&#xD;&#xA;adjusted to screen which with you recieved this program." />
+  <LocaleResource name="tooltipMessage_downButton" value="Press this button to move down selected program, window or item in playbill hierarchy." />
+  <LocaleResource name="tooltipMessage_deleteButton" value="Press this button to delete selected program, window or item from playbill." />
+  <LocaleResource name="tooltipMessage_expertLevelCheckBox" value="Change application user level to the one with access to all settings - expert." />
+  <LocaleResource name="tooltipMessage_beginnerLevelCheckBox" value="Change application user level to the easiest - beginner." />
+  <LocaleResource name="tooltipMessage_playbillWidthTextBox" value="The width of LED screen, that will display programs" />
+  <LocaleResource name="tooltipMessage_showSettingsButton" value="Press this button to open an advanced network settings window." />
+  <LocaleResource name="tooltipTitle_Information" value="Information" />
+</Language>

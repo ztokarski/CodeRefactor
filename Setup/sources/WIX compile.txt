@@ -1,0 +1,27 @@
+"%wix%bin\candle" LedConfig.wxs -codepage=Strona_Kodowa_Jêzyka
+"%wix%bin\light" -ext "%WIX%BIN\WixUIExtension.DLL" -ext "%WIX%BIN\WixNetFxExtension.DLL"  -ext "%WIX%BIN\WixUtilExtension.DLL" -cultures:Kod_Jêzyka -out LedConfig_jezyk.msi  -sice:ICE80 LedConfig.wixobj
+"%wix%bin\torch.exe" -p -t language LedConfig.msi LedConfig_jezyk.msi -out jezyk-jezyk.mst
+
+cscript "C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\sysmgmt\msi\scripts\WiSubStg.vbs" LedConfigM.msi jezyk-jezyk.mst dowolna_nazwa_dawalem_kod_jezyka
+cscript "C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\sysmgmt\msi\scripts\WiLangId.vbs" LedConfig.msi package KODY_JEZYKOW_WSPOMAGANYCH np. 1033,1045,1028
+
+Dla ju¿ obecnych jezyków, w skrócie, wygl¹da³o to tak:
+
+"%wix%bin\candle" LedConfig.wxs -dcodepage=1252
+"%wix%bin\light" -ext "%WIX%BIN\WixUIExtension.DLL" -ext "%WIX%BIN\WixNetFxExtension.DLL"  -ext "%WIX%BIN\WixUtilExtension.DLL" -cultures:en-us -out LedConfigM.msi -sice:ICE80 LedConfig.wixobj
+
+"%wix%bin\candle" LedConfig.wxs -dcodepage=1250
+"%wix%bin\light" -ext "%WIX%BIN\WixUIExtension.DLL" -ext "%WIX%BIN\WixNetFxExtension.DLL"  -ext "%WIX%BIN\WixUtilExtension.DLL" -cultures:pl-pl -out LedConfigP.msi -sice:ICE80 LedConfig.wixobj
+
+"%wix%bin\candle" LedConfig.wxs -dcodepage=950
+"%wix%bin\light" -ext "%WIX%BIN\WixUIExtension.DLL" -ext "%WIX%BIN\WixNetFxExtension.DLL"  -ext "%WIX%BIN\WixUtilExtension.DLL" -cultures:zh-tw -out LedConfigC.msi -sice:ICE80 LedConfig.wixobj
+
+"%wix%bin\torch.exe" -p -t language LedConfigM.msi LedConfigP.msi -out pl-pl.mst
+"%wix%bin\torch.exe" -p -t language LedConfigM.msi LedConfigC.msi -out zh-tw.mst
+
+cscript "C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\sysmgmt\msi\scripts\WiSubStg.vbs" LedConfigM.msi pl-pl.mst 1045
+cscript "C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\sysmgmt\msi\scripts\WiSubStg.vbs" LedConfigM.msi zh-tw.mst 1028
+
+cscript "C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\sysmgmt\msi\scripts\WiLangId.vbs" LedConfigM.msi package 1033,1045,1028
+
+Wygl¹da na to, ¿e kolejnoœæ kodów jêzyków ma znaczenie i powinna byæ taka, jak kolejnoœæ dodawania paczek transformacji.

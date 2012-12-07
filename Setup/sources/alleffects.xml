@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Effects>
+  <Group index="0" name="OpenEasy">
+    <Effect index="0" name="Instant" code="0"/>
+    <Effect index="1" name="Left" code="1"/>
+    <Effect index="2" name="Right" code="2"/>
+    <Effect index="3" name="Horizontal" code="3"/>
+    <Effect index="4" name="Vertical" code="4"/>
+    <Effect index="5" name="TopLeft" code="27"/>
+    <Effect index="6" name="TopRight" code="28"/>
+    <Effect index="7" name="BottomLeft" code="29"/>
+    <Effect index="8" name="BottomRight" code="30"/>
+    <Effect index="9" name="LeftRight" code="65"/>
+    <Effect index="10" name="UpDown" code="66"/>
+    <Effect index="11" name="Slash" code="31"/>  
+    <Effect index="12" name="Backslash" code="32"/> 
+  </Group>
+  <Group index="1" name="OpenComplex">
+    <Effect index="0" name="RectangleOut" code="21"/>
+    <Effect index="1" name="RectangleIn" code="22"/>
+    <Effect index="3" name="CornerOut" code="23"/>
+    <Effect index="4" name="CornerIn" code="24"/>
+    <Effect index="5" name="ZebraHorizontal" code="39"/>
+    <Effect index="6" name="ZebraVertical" code="40"/>
+    <Effect index="7" name="OpenClockwise" code="17"/>
+    <Effect index="8" name="OpenAntiClockwise" code="18"/>
+    <Effect index="9" name="WindmillClockwise" code="19"/>
+    <Effect index="10" name="WindmillAntiClockwise" code="20"/>
+    <Effect index="11" name="Open 2-Fan" code="67"/>
+    <Effect index="10" name="BlindHorizontial" code="61"/>
+    <Effect index="11" name="RoundOut" code="25"/>
+  </Group>
+  <Group index="2" name="Shifts/Scroll">
+    <Effect index="0" name="ShiftLeft" code="6"/>
+    <Effect index="1" name="ShiftRight" code="7"/>
+    <Effect index="2" name="ShiftUp" code="8"/>
+    <Effect index="3" name="ShiftDown" code="9"/>
+    <Effect index="4" name="ScrollLeftCont" code="14"/>
+    <Effect index="5" name="ScrollRigthCont" code="15"/>
+    <Effect index="6" name="ScrollUpCont" code="53"/>
+    <Effect index="7" name="ScrollDownCont" code="54"/>
+    <Effect index="8" name="ScrollLeft" code="11"/>
+    <Effect index="9" name="ScrollRigth" code="12"/>
+    <Effect index="10" name="ScrollUp" code="10"/>
+    <Effect index="11" name="ScrollDown" code="64"/>
+  </Group>
+  <Group index="3" name="Slides">
+    <Effect index="0" name="ZebraHorizontal" code="69"/>
+    <Effect index="1" name="ZebraVertical" code="70"/>
+    <Effect index="2" name="TopLeft" code="33"/>
+    <Effect index="3" name="TopRight" code="34"/>
+    <Effect index="4" name="BottomLeft" code="35"/>
+    <Effect index="5" name="BottomRight" code="36"/>
+  </Group>
+  <Group index="4" name="Other">
+    <Effect index="0" name="Blink" code="13"/>
+    <Effect index="1" name="BlinkInverse" code="62"/> 
+    <Effect index="2" name="SnowFall" code="63"/>
+    <Effect index="3" name="Bubbles" code="56"/>
+    <Effect index="4" name="ExpandTop" code="57"/>
+    <Effect index="5" name="ExpandBottom" code="58"/>
+    <Effect index="6" name="ExpandVertical" code="60"/>
+    <Effect index="7" name="ChessboardHorizontial" code="51"/>
+    <Effect index="8" name="ShutterHorizontial" code="16"/>
+    <Effect index="9" name="ShutterVertical" code="5"/>
+    <Effect index="10" name="LaserUp" code="43"/>
+    <Effect index="11" name="LaserDown" code="44"/>
+    <Effect index="12" name="ScrapeUp" code="45"/>
+  </Group>
+</Effects>
