@@ -244,16 +244,20 @@ namespace BengiLED_for_C_Power
                 }
             }
 
+          
 
             AutosaveFileName = string.Format("{0}/autosave.bpr", programSettingsFolder);
             NotBeginnerAutosaveFileName = string.Format("{0}/autosave.apr", programSettingsFolder);
             configFileName = string.Format("{0}/ledconfig.xml", programSettingsFolder);
-            
 
-            if (DateTime.Now.Ticks >= new DateTime(2012, 4, 1).Ticks)
+   
+
+            if (IsReleaseInvalid())
             {
                 return;
             }
+
+
             this.ResizeEnd += new EventHandler(MainWindow_ResizeEnd);
 
             previewWindow = new PreviewWindow();
@@ -430,9 +434,22 @@ namespace BengiLED_for_C_Power
                         ((((TimeSpan)(searchEnd - searchStart)).TotalMilliseconds) / 1000).ToString());
         }
 
+        private bool IsReleaseInvalid()
+        {
+            var now = DateTime.Now;
+            var assembly = GetCreationDate().AddDays(30);
+
+            return now.Ticks >= assembly.Ticks;
+        }
+
+        private DateTime GetCreationDate()
+        {
+            return File.GetCreationTime(Assembly.GetEntryAssembly().Location);
+        }
+
         private void MainWindow_Load(object sender, EventArgs e)
         {
-            if (DateTime.Now.Ticks >= new DateTime(2012, 4, 1).Ticks)
+            if (IsReleaseInvalid())
             {
                 this.Close();
                 Application.Exit();
