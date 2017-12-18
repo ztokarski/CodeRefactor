@@ -12727,14 +12727,7 @@ namespace BengiLED_for_C_Power
 
         private void MainWindow_Activated(object sender, EventArgs e)
         {
-            //this.BringToFront();
-            //this.TopLevel = true;
-            //brightnessForm.SendToBack;
-            //foreach (Form f in this.OwnedForms)
-            //{
-            //    if(f.Visible)
-            //        f.SendToBack();
-            //}
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -12743,7 +12736,6 @@ namespace BengiLED_for_C_Power
             TreeNode current = playbillTree.SelectedNode;
             if (current != null)
             {
-
                 RichTextBox rtb = copyRTB(bitmaptextRichTextBox);
 
                 PlayWindow window = CurrentPlaybill.ProgramsList[current.Parent.Parent.Index].WindowsList[current.Parent.Index];
