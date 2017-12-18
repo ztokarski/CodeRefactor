@@ -18,3 +18,23 @@ D:\praca\BengiTeam\LED\BengiLED for C-Power\BengiLED for C-Power\obj\x86\Release
 D:\praca\BengiTeam\LED\BengiLED for C-Power\BengiLED for C-Power\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
 D:\praca\BengiTeam\LED\BengiLED for C-Power\BengiLED for C-Power\obj\x86\Release\LedConfig.exe
 D:\praca\BengiTeam\LED\BengiLED for C-Power\BengiLED for C-Power\obj\x86\Release\LedConfig.pdb
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\bin\Release\LedConfig.exe.config
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\bin\Release\LedConfig.exe
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\bin\Release\LedConfig.pdb
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED for C-Power.csprojResolveAssemblyReference.cache
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.AlertWindow.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.BrightnessSettingsForm.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.IPAddressBox.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.LocalizatorForm.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.LogWindow.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.NetworkSearchWindow.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.passWindow.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.MainWindow.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.PreviewWindow.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.ProgramSettingsForm.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.Properties.Resources.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED_for_C_Power.ScreenSettingsForm.resources
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED for C-Power.csproj.GenerateResource.Cache
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\BengiLED for C-Power.csproj.CoreCompileInputs.cache
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\LedConfig.exe
+C:\Users\ZT\Documents\Visual Studio 2017\Projects\workshop\legacycodeworkshop-ztokarski\BengiLED for C-Power\obj\x86\Release\LedConfig.pdb
